@@ -35,7 +35,7 @@ import javafx.util.Duration;
  * @version 1.0
  * @since 2017-05-26
  */
-class HorizontalTransition extends CachedTransition {
+public class HorizontalTransition extends CachedTransition {
     public HorizontalTransition(boolean leftDirection, Node contentContainer, Node overlay) {
         super(contentContainer, new Timeline(
             new KeyFrame(Duration.ZERO,
